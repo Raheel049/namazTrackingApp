@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#loginPage{
+    background-image: url("./loginBG.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#loginPage, #signUpPage p{
+    color: white;
+}
+
+#loginPage, #signUpPage a{
+    /* text-decoration: none; */
+    color: rgb(200, 204, 236);
+}
+
+#loginPage input:focus{
+    outline: none;
+    border: 1px solid rgb(20, 46, 42);
+}
+
+.loginContainer{
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: rgb(95, 158, 160, 0.5);
+    /* background-color: transparent; */
+    /* opacity: 0.5; */
+    
+}
+
+.loginContainer h1{
+    text-align: center;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.fields label{
+    margin-left: 65px;
+}
+ 
+.fields input{
+    height: 38px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+}
+
+.loginContainer button{
+    height: 38px;
+    width: 70px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+}
+
+#signUpPage{
+    background-image: url("./signUp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signUpContainer{
+    height: 87vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: rgb(128, 128, 128, 0.7);
+    border-radius: 30px;
+}
+
+.signUpContainer h1{
+    text-align: center;
+}
+
+.signUpContainer button{
+    height: 38px;
+    width: 70px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgb(0,0,139);
+    border: none;
+    color: white;
+}
+
+.mainContainer p{
+    margin-top: 40px;
+    margin-left: 25%;
+}
+
+.namazField{
+    display: flex;
+    justify-content: space-around;
+    height: 38px;
+    border: 1px solid black;
+    padding: 5px 0;
+    margin: 10px 0;
+    border-radius: 20px;
+    background-color: palegreen;
+    /* font-size: 18px; */
+    /* border: 1px solid black; */
+}
+
+.parent{
+    height: 350px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+.parent button {
+    height: 38px;
+    width: 130px;
+    margin: 0 auto;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    color: white;
+
+}
+
+.logoutBtn{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.logoutBtn button{
+    height: 38px;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+}
+
+.navbar{
+    height: 38px;
+    width: 100%;
+    background-color: darkslategrey;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.parent h3{
+    text-align: center;
+}
+
+.myClass{
+    background-color: blue;
+}
+
+
+.card{
+    height: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    background-color: chocolate;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 20px;
+    
+
+}
+
+.userProfileData{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.userProfileData button{
+    height: 38px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 10 auto;
+    border: none;
+    background-color: darkmagenta;
+    color : white;
+}
+
+.profileImg{
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.profileImg img{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rebeccapurple;
+    border-radius: 50%;
+}
+
+#dashbordPage p{
+    display: inline-block;
+    /* background-color: red; */
+}
+
+#dashbordPage{
+    background-image: url("./history.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#profilePage{
+    background-color: darkblue;
+}
+
+#profilePage .userProfileData input{
+    height: 38px;
+    width: 50%;
+    border: none;
+    /* border-bottom: 1px solid black; */
+    border-radius: 20px;
+    margin: 10px auto;
+    padding-left: 10px;
+    background-color: rgb(31, 46, 50);
+    color: white;
+}
+
+#historyPage{
+    background-color: darkgray;
+    
+}
