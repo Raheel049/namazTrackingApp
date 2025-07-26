@@ -8,6 +8,7 @@
     background-image: url("./loginBG.avif");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 #loginPage, #signUpPage p{
@@ -255,6 +256,7 @@
     background-image: url("./history.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 
 }
 
